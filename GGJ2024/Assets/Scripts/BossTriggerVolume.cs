@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Playables;
 using static UnityEngine.GraphicsBuffer;
 
 public class BossTriggerVolume : MonoBehaviour
 {
     public Transform Boss;
+    public GameObject CutsceneUIRoot;
+    public PlayableDirector CutsceneTimelineDirector;
     bool triggered = false;
 
     // Start is called before the first frame update
@@ -24,11 +27,19 @@ public class BossTriggerVolume : MonoBehaviour
             float step = speed * Time.deltaTime; // calculate distance to move
             Boss.position = Vector3.MoveTowards(Boss.position, transform.position, step);
         }
+
+        if (Boss.IsDestroyed() && CutsceneUIRoot.activeSelf)
+        {
+            CutsceneUIRoot.SetActive(false);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Triggered");
         triggered = true;
+
+        CutsceneUIRoot.SetActive(true);
+        CutsceneTimelineDirector.Play();
     }
 }
