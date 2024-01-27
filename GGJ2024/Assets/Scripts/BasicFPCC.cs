@@ -449,6 +449,7 @@ public class BasicFPCC : MonoBehaviour
     {
         if (!cursorActive && Cursor.lockState != CursorLockMode.Locked) { Cursor.lockState = CursorLockMode.Locked; }
         if (cursorActive && Cursor.lockState != CursorLockMode.None) { Cursor.lockState = CursorLockMode.None; }
+        // Cursor.visible = cursorActive;
     }
 
     // check the area above, for standing from crouch
