@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{9b608fc1-7c0a-4d4b-a202-07e414b2c0b3}">
+		<property name="assetPath">
+			<value>SFX/Weapon/Strike/SFX-BalloonSword-Strike-Impact-04.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d93ee7e9-964c-418c-a0cf-b61232f8bf8c}</destination>
+		</relationship>
+	</object>
+</objects>
