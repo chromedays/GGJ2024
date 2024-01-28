@@ -14,11 +14,14 @@ public class PlayerController : MonoBehaviour
     // public TextMeshProUGUI HoveringItemText;
     public FMODUnity.EventReference PickupSFX;
     public FMODUnity.EventReference ThrowSFX;
+    public FMODUnity.EventReference WalkSFX;
+    public float WalkSFXInterval = 0.8f;
+    float walkTimer = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -50,6 +53,25 @@ public class PlayerController : MonoBehaviour
 
                 FMODUnity.RuntimeManager.PlayOneShot(ThrowSFX, transform.position);
             }
+        }
+
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
+        {
+            float multiplier = 1;
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                multiplier = 1.6f;
+            }
+            walkTimer += Time.deltaTime * multiplier;
+            if (walkTimer > WalkSFXInterval)
+            {
+                FMODUnity.RuntimeManager.PlayOneShot(WalkSFX, transform.position);
+                walkTimer -= WalkSFXInterval;
+            }
+        }
+        else
+        {
+            walkTimer = 0;
         }
     }
 

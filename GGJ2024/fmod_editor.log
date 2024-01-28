@@ -7,73 +7,13 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000029FEDAFFA38 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 00000190DBF371B8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] PlaybackSystem::init                     : done
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] Manager::init                            : done.
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[LOG] SystemI::createSound                     : filename = ../FMOD Project/Build/Desktop/Master.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] Thread::initThread                       : Init FMOD nonblocking thread (0). Affinity: 0x4000000000000003, Priority: 0xFFFF7FFC, Stack Size: 114688, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000029FACAF1CF8, queue head = 000002A0E676B9D8, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000029FACAF1CF8
-[LOG] SystemI::createSoundInternal             :     Create name='../FMOD Project/Build/Desktop/Master.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002A03241D980
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSound                     :     filename = ../FMOD Project/Build/Desktop/Master.bank : mode 02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         :     add sound to async queue : soundi = 0000029FACAF17E8, queue head = 000002A0E676B9D8, queue count = 0
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SFX-FerrisLightAmbience-TEMP', format=5, channels=2, frequency=48000, lengthbytes=1739008, lengthpcm=6333938, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.707997.
-[LOG] Thread::initThread                       :     Init FMOD file thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFC, Stack Size: 65536, Semaphore: No, Sleep Time: 10, Looping: Yes.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000029FACAF1CF8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000029FACAF17E8
-[LOG] SystemI::createSoundInternal             :     Create name='../FMOD Project/Build/Desktop/Master.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002A03241DAC0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SFX-FerrisWheelInterior-TEMP', format=5, channels=2, frequency=48000, lengthbytes=1512032, lengthpcm=6240000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.187926.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000029FACAF17E8
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000DF9989F008
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9D743F70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9D743F30
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9D744050
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9D744110
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002A0E6A50318
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX-FerrisWheelDoor-TEMP', format=5, channels=2, frequency=48000, lengthbytes=17984, lengthpcm=92065, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.271927.
-[LOG] SoundI::release                          : SFX-FerrisWheelInterior-TEMP (0000029FACAF17E8)
-[LOG] SoundI::release                          :     SFX-FerrisWheelInterior-TEMP (0000029DA0511278)
-[LOG] SoundI::release                          :     SFX-FerrisWheelInterior-TEMP (0000029FA178E3F8)
-[LOG] SoundI::release                          : SFX-FerrisLightAmbience-TEMP (0000029FACAF1CF8)
-[LOG] SoundI::release                          :     SFX-FerrisLightAmbience-TEMP (0000029DA0511758)
-[LOG] SoundI::release                          :     SFX-FerrisLightAmbience-TEMP (0000029FA178E248)
-[WRN] PlaybackSystem::onDestroyEvent           : Destroying event instance '200680' due to event description {4e770335-8caf-46ad-9691-f777de45ef34} unload
-[LOG] SoundI::release                          :  (000002A0E3E3ABB8)
-[LOG] SoundI::release                          :     SFX-FerrisWheelDoor-TEMP (000002A063EE8A78)
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
@@ -81,5 +21,3 @@
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] SystemI::close                           : Closed.
-[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
-[LOG] Thread::callback                         : FMOD file thread finished.
