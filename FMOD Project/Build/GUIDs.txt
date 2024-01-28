@@ -16,6 +16,7 @@
 {5cd96d9e-07b2-4af7-8e56-3837e442edd4} event:/Environment/Room Tone/BigTopAmbience
 {1a93aad0-c636-45bd-a1ec-cecb07e685f9} event:/Environment/Room Tone/FerrisWheelDark
 {b3ffc7cd-0af8-416a-baff-50ab88a5ea96} event:/Environment/Room Tone/FerrisWheelLight
+{0d7119b0-9527-4989-b081-95a6fb84d2c9} event:/Environment/Room Tone/PathAmbience
 {578b3421-2892-49c8-bca7-f53096bb8c82} event:/SFX/Boss/BossHealthBarDepletion
 {ed80d5b4-5792-4d29-bea1-7754a427d9b9} event:/SFX/Boss/BossHealthBarFill
 {51804073-ac5e-44a9-b75b-42b5eef518a6} event:/SFX/Boss/BossMovement
