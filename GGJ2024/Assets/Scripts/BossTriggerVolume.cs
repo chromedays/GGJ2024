@@ -41,6 +41,7 @@ public class BossTriggerVolume : MonoBehaviour
 
     void StartCutscene()
     {
+        Boss.GetComponent<BossController>().OnAppear();
         CutsceneUIRoot.SetActive(true);
         CutsceneTimelineDirector.Play();
     }

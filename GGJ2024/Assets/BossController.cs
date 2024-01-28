@@ -23,12 +23,18 @@ public class BossController : MonoBehaviour
         
     }
 
+    public void OnAppear()
+    {
+        GetComponent<StudioEventEmitter>().Play();
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Pickable"))
         {
             FMODUnity.RuntimeManager.PlayOneShot(DefeatSFX, Player.position);
             EndingTimelineDirector.Play();
+            GetComponent<StudioEventEmitter>().Stop();
             Destroy(gameObject);
         }
     }
