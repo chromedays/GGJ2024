@@ -1,0 +1,594 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7859789898740654837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BGM/MusicController
+  m_EditorClassIdentifier: 
+  Path: event:/BGM/MusicController
+  Guid:
+    Data1: -365680280
+    Data2: 1131097591
+    Data3: -1736711493
+    Data4: -1897513778
+  Banks:
+  - {fileID: 3578510592910456591}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6949625250802803428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Boss/BossPop
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Boss/BossPop
+  Guid:
+    Data1: -924250373
+    Data2: 1215571375
+    Data3: -817755501
+    Data4: 656722132
+  Banks:
+  - {fileID: 3578510592910456591}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6105216973366044460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Boss/BossMovement
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Boss/BossMovement
+  Guid:
+    Data1: 1367359603
+    Data2: 1151970398
+    Data3: -1253942345
+    Data4: -1508313618
+  Banks:
+  - {fileID: 3578510592910456591}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5184897936440848130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Weapon/BalloonSwordStrike
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Weapon/BalloonSwordStrike
+  Guid:
+    Data1: -639695831
+    Data2: 1202903259
+    Data3: 1523660474
+    Data4: -665837747
+  Banks:
+  - {fileID: 3578510592910456591}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2062
+--- !u!114 &-4166394789526535913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/PlayerFootstep
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/PlayerFootstep
+  Guid:
+    Data1: -954017262
+    Data2: 1205337606
+    Data3: -1001609550
+    Data4: 1860534197
+  Banks:
+  - {fileID: 3578510592910456591}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3063921920626259661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Room Tone/BigTopAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Room Tone/BigTopAmbience
+  Guid:
+    Data1: 1557753246
+    Data2: 1257703346
+    Data3: 926439054
+    Data4: -722648348
+  Banks:
+  - {fileID: 3578510592910456591}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2766118895197800384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/PlayerBreathing
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/PlayerBreathing
+  Guid:
+    Data1: 29502756
+    Data2: 1318813211
+    Data3: 1844159391
+    Data4: 2139759083
+  Banks:
+  - {fileID: 3578510592910456591}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1844908174886442967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Boss/BossHealthBarDepletion
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Boss/BossHealthBarDepletion
+  Guid:
+    Data1: 1468740641
+    Data2: 1237854354
+    Data3: 821405628
+    Data4: -2104706154
+  Banks:
+  - {fileID: 3578510592910456591}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1753071766839943478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Boss/BossRoar
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Boss/BossRoar
+  Guid:
+    Data1: 1760407629
+    Data2: 1288866340
+    Data3: 261300920
+    Data4: -845203261
+  Banks:
+  - {fileID: 3578510592910456591}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1700568052891886246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Boss/BossHealthBarFill
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Boss/BossHealthBarFill
+  Guid:
+    Data1: -310323788
+    Data2: 1294555026
+    Data3: 1417126334
+    Data4: -1176950876
+  Banks:
+  - {fileID: 3578510592910456591}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-947450646205193979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/FerrisWheelLight/Parameter 1
+  m_EditorClassIdentifier: 
+  Name: Parameter 1
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 2820047934
+    data2: 319802619
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 1273830221711523261}
+  - {fileID: 3578510592910456591}
+  EditorEvents:
+  - {fileID: 7563480822720129823}
+  - {fileID: 8140131766983005528}
+  - {fileID: -4166394789526535913}
+  - {fileID: 1257240953189978246}
+  - {fileID: -1844908174886442967}
+  - {fileID: -2766118895197800384}
+  - {fileID: -5184897936440848130}
+  - {fileID: 8672273139707836619}
+  - {fileID: -1753071766839943478}
+  - {fileID: -7859789898740654837}
+  - {fileID: -6105216973366044460}
+  - {fileID: 1828926766504553211}
+  - {fileID: -3063921920626259661}
+  - {fileID: -1700568052891886246}
+  - {fileID: 8695630862586337915}
+  - {fileID: 5763891138379167211}
+  - {fileID: 5933709367888236842}
+  - {fileID: -6949625250802803428}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 3578510592910456591}
+  StringsBanks:
+  - {fileID: 1273830221711523261}
+  cacheTime: 638419726231088644
+  cacheVersion: 131616
+--- !u!114 &1257240953189978246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Narrative Sequence/BossDefeated
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Narrative Sequence/BossDefeated
+  Guid:
+    Data1: 1032830746
+    Data2: 1197680239
+    Data3: 1403223743
+    Data4: -1786333856
+  Banks:
+  - {fileID: 3578510592910456591}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1273830221711523261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Project/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638419726231088644
+  FileSizes:
+  - Name: Desktop
+    Value: 1982
+  Exists: 1
+--- !u!114 &1828926766504553211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Weapon/BalloonSwordSwing
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Weapon/BalloonSwordSwing
+  Guid:
+    Data1: 497176439
+    Data2: 1268654045
+    Data3: 1534355089
+    Data4: 116914191
+  Banks:
+  - {fileID: 3578510592910456591}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3578510592910456591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Project/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638419726231033529
+  FileSizes:
+  - Name: Desktop
+    Value: 3609280
+  Exists: 1
+--- !u!114 &5763891138379167211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Room Tone/FerrisWheelLight
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Room Tone/FerrisWheelLight
+  Guid:
+    Data1: -1275082803
+    Data2: 1097468664
+    Data3: -1420755014
+    Data4: -1763007096
+  Banks:
+  - {fileID: 3578510592910456591}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -947450646205193979}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 210000
+--- !u!114 &5933709367888236842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Room Tone/FerrisWheelDark
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Room Tone/FerrisWheelDark
+  Guid:
+    Data1: 445885136
+    Data2: 1170064950
+    Data3: -875631455
+    Data4: -108665337
+  Banks:
+  - {fileID: 3578510592910456591}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7563480822720129823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Emitter/FerrisWheelTurning
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Emitter/FerrisWheelTurning
+  Guid:
+    Data1: 1308301568
+    Data2: 1328601659
+    Data3: 159075774
+    Data4: -478366864
+  Banks:
+  - {fileID: 3578510592910456591}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8140131766983005528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Narrative Sequence/LightsOut
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Narrative Sequence/LightsOut
+  Guid:
+    Data1: 1554344704
+    Data2: 1104420315
+    Data3: -1561105759
+    Data4: 1855123139
+  Banks:
+  - {fileID: 3578510592910456591}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8672273139707836619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Interactable/FerrisWheelDoor
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Interactable/FerrisWheelDoor
+  Guid:
+    Data1: 1316422453
+    Data2: 1185778863
+    Data3: 2012713366
+    Data4: 888096222
+  Banks:
+  - {fileID: 3578510592910456591}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8695630862586337915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Weapon/BalloonSwordGet
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Weapon/BalloonSwordGet
+  Guid:
+    Data1: 1535213253
+    Data2: 1287785171
+    Data3: 305825934
+    Data4: 1559205563
+  Banks:
+  - {fileID: 3578510592910456591}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
