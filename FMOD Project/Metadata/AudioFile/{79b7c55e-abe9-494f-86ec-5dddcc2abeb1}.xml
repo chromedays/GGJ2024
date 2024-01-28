@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{79b7c55e-abe9-494f-86ec-5dddcc2abeb1}">
+		<property name="assetPath">
+			<value>Environment/Room Tone/SFX-FerrisWheelInterior-TEMP.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>130</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d93ee7e9-964c-418c-a0cf-b61232f8bf8c}</destination>
+		</relationship>
+	</object>
+</objects>
