@@ -1,0 +1,29 @@
+{e64c5d4c-6dc4-4310-82e4-0465c0e5607b} bank:/Master
+{7e517d98-1cbf-0f52-04ad-8e9b311666e3} bank:/Master.strings
+{fffcfaa9-0a73-4819-b980-5050cd70ee8f} bus:/
+{4570e666-2bf0-47c8-980d-d2145616ed2c} bus:/BGM
+{d00375e5-1c6d-45d4-b038-97d06f0667eb} bus:/Reverb
+{17ea152f-95e4-4083-9b25-0e33b7f285b8} bus:/SFX
+{a7855226-206f-4475-addd-3e2dcdaf44fd} bus:/SFX/Boss
+{e95dac12-8587-49a5-bff9-c077214a2218} bus:/SFX/Environment
+{e8271a44-dcfe-4b84-ba13-1b9e2053ece7} bus:/SFX/Player
+{2f2f8372-bf6c-4d0b-a3d2-4e41392d6fa2} bus:/VO
+{ea342968-2df7-436b-bbe2-7b98ce3ce68e} event:/BGM/MusicController
+{4dfb1900-da3b-4f30-be4d-7b0970b37ce3} event:/Environment/Emitter/FerrisWheelTurning
+{5cd96d9e-07b2-4af7-8e56-3837e442edd4} event:/Environment/Room Tone/BigTopAmbience
+{1a93aad0-c636-45bd-a1ec-cecb07e685f9} event:/Environment/Room Tone/FerrisWheelDark
+{b3ffc7cd-0af8-416a-baff-50ab88a5ea96} event:/Environment/Room Tone/FerrisWheelLight
+{578b3421-2892-49c8-bca7-f53096bb8c82} event:/SFX/Boss/BossHealthBarDepletion
+{ed80d5b4-5792-4d29-bea1-7754a427d9b9} event:/SFX/Boss/BossHealthBarFill
+{51804073-ac5e-44a9-b75b-42b5eef518a6} event:/SFX/Boss/BossMovement
+{c8e90efb-25af-4874-930a-42cfd4c82427} event:/SFX/Boss/BossPop
+{68edb04d-8a24-4cd2-b822-930fc3389fcd} event:/SFX/Boss/BossRoar
+{4e770335-8caf-46ad-9691-f777de45ef34} event:/SFX/Interactable/FerrisWheelDoor
+{3d8fbf1a-266f-4763-bf7e-a35360b58695} event:/SFX/Narrative Sequence/BossDefeated
+{5ca56b00-1ddb-41d4-a16a-f3a2c3ee926e} event:/SFX/Narrative Sequence/LightsOut
+{01c22d24-7e1b-4e9b-9fa3-eb6deb218a7f} event:/SFX/Player/PlayerBreathing
+{c722da12-fe06-47d7-b2a6-4cc4b57fe56e} event:/SFX/Player/PlayerFootstep
+{5b817ec5-0ad3-4cc2-8e88-3a12bb96ef5c} event:/SFX/Weapon/BalloonSwordGet
+{d9df0429-d8db-47b2-ba36-d15a4d1f50d8} event:/SFX/Weapon/BalloonSwordStrike
+{1da24f77-1fdd-4b9e-9166-745b0ff8f706} event:/SFX/Weapon/BalloonSwordSwing
+{2a759152-bd14-4144-a608-0644c6435d72} parameter:/Parameter 1
