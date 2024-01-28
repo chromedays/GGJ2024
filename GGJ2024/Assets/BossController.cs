@@ -2,11 +2,14 @@ using FMODUnity;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
+using UnityEngine.SceneManagement;
 
 public class BossController : MonoBehaviour
 {
     public EventReference DefeatSFX;
     public Transform Player;
+    public PlayableDirector EndingTimelineDirector;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +28,7 @@ public class BossController : MonoBehaviour
         if (collision.gameObject.CompareTag("Pickable"))
         {
             FMODUnity.RuntimeManager.PlayOneShot(DefeatSFX, Player.position);
+            EndingTimelineDirector.Play();
             Destroy(gameObject);
         }
     }

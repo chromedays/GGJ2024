@@ -22,25 +22,9 @@ public class BossTriggerVolume : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (triggered && !Boss.IsDestroyed())
-        {
-            StartCoroutine(Appear(CutsceneDelayInSeconds));
-        }
-
         if (Boss.IsDestroyed() && CutsceneUIRoot.activeSelf)
         {
             CutsceneUIRoot.SetActive(false);
-        }
-    }
-
-    IEnumerator Appear(float seconds)
-    {
-        yield return new WaitForSeconds(seconds);
-        if (!Boss.IsDestroyed())
-        {
-            float speed = 3f;
-            float step = speed * Time.deltaTime; // calculate distance to move
-            Boss.position = Vector3.MoveTowards(Boss.position, transform.position, step);
         }
     }
 
