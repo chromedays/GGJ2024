@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000029FAC5D2548 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0000029FEDAFFA38 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -16,496 +16,64 @@
 [LOG] Manager::init                            : done.
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[ERR] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004.  Device was unplugged!
-[ERR] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004.  Device was unplugged!
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEX): wFormatTag=0xFFFE, nChannels=2, nSamplesPerSec=48000, nAvgBytesPerSec=384000, nBlockAlign=8, wBitsPerSample=32, cbSize=22.
-[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEXTENSIBLE): wValidBitsPerSample=32, dwChannelMask=0x00000003, SubFormat=00000003-0000-0010-8000-00AA00389B71.
-[LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.67ms, DSP buffer: 1024 * 4
-[LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000DF9979F228
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9D743F70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9D743F30
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9D744050
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9D744110
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002A063EAA1B8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX-FerrisWheelDoor-TEMP', format=5, channels=2, frequency=48000, lengthbytes=17984, lengthpcm=92065, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.271927.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000DF9979F228
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9D743F70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9D743F30
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9D744050
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9D744110
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002A063EA9138
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX-Pop-TEMP', format=5, channels=2, frequency=48000, lengthbytes=1184, lengthpcm=4019, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.483025.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000DF9979F228
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9D743F70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9D743F30
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9D744050
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9D744110
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002A063EA8B08
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX-Roar-TEMP', format=5, channels=2, frequency=48000, lengthbytes=26784, lengthpcm=131520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.186350.
 [LOG] SystemI::createSound                     : filename = ../FMOD Project/Build/Desktop/Master.bank : mode 02010082
 [LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
 [LOG] Thread::initThread                       : Init FMOD nonblocking thread (0). Affinity: 0x4000000000000003, Priority: 0xFFFF7FFC, Stack Size: 114688, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000002A011D2D808, queue head = 000002A063A53448, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002A011D2D808
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000029FACAF1CF8, queue head = 000002A0E676B9D8, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000029FACAF1CF8
 [LOG] SystemI::createSoundInternal             :     Create name='../FMOD Project/Build/Desktop/Master.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
 [LOG] SystemI::createSoundInternal             :     exinfo->length             = 3574528
 [LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 34752
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000029FEDEDD880
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002A03241D980
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSound                     :     filename = ../FMOD Project/Build/Desktop/Master.bank : mode 02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SFX-BossMovement-TEMP', format=5, channels=2, frequency=48000, lengthbytes=141664, lengthpcm=573648, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.355062.
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         :     add sound to async queue : soundi = 0000029FACAF17E8, queue head = 000002A0E676B9D8, queue count = 0
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SFX-FerrisLightAmbience-TEMP', format=5, channels=2, frequency=48000, lengthbytes=1739008, lengthpcm=6333938, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.707997.
 [LOG] Thread::initThread                       :     Init FMOD file thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFC, Stack Size: 65536, Semaphore: No, Sleep Time: 10, Looping: Yes.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002A011D2D808
-[LOG] SoundI::release                          : SFX-BossMovement-TEMP (000002A011D2D808)
-[LOG] SoundI::release                          :     SFX-BossMovement-TEMP (000002A063EE83F8)
-[LOG] SoundI::release                          :     SFX-BossMovement-TEMP (000002A011D2E8E8)
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000DF9979F228
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9D743F70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9D743F30
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9D744050
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9D744110
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002A063EA9FA8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX-BalloonSword-Strike-Impact-02', format=5, channels=2, frequency=48000, lengthbytes=3360, lengthpcm=24000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.584437.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000DF9979F228
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9D743F70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9D743F30
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9D744050
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9D744110
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002A063EA9FA8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX-BalloonSword-Strike-Squeak-01', format=5, channels=2, frequency=48000, lengthbytes=4800, lengthpcm=24000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.148678.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000DF9979F228
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9D743F70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9D743F30
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9D744050
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9D744110
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002A063EA9FA8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX-BalloonSword-Strike-Impact-05', format=5, channels=2, frequency=48000, lengthbytes=4800, lengthpcm=24000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.604726.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000DF9979F228
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9D743F70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9D743F30
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9D744050
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9D744110
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002A063EA9FA8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX-BalloonSword-Strike-Squeak-05', format=5, channels=2, frequency=48000, lengthbytes=5312, lengthpcm=24000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.186995.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000DF9979F228
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9D743F70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9D743F30
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9D744050
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9D744110
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002A063EA9FA8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX-BalloonSword-Strike-Impact-03', format=5, channels=2, frequency=48000, lengthbytes=4384, lengthpcm=24000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.608701.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000DF9979F228
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9D743F70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9D743F30
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9D744050
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9D744110
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002A063EA9FA8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX-BalloonSword-Strike-Squeak-02', format=5, channels=2, frequency=48000, lengthbytes=5344, lengthpcm=24000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.138414.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000DF9979F228
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9D743F70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9D743F30
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9D744050
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9D744110
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002A063EA9FA8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX-BalloonSword-Strike-Squeak-03', format=5, channels=2, frequency=48000, lengthbytes=5856, lengthpcm=24000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.129224.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000DF9979F228
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9D743F70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9D743F30
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9D744050
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9D744110
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002A063EA9FA8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX-BalloonSword-Strike-Squeak-04', format=5, channels=2, frequency=48000, lengthbytes=5024, lengthpcm=24000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.138790.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000DF9979F228
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9D743F70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9D743F30
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9D744050
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9D744110
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002A063EA9FA8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX-BalloonSword-Strike-Impact-01', format=5, channels=2, frequency=48000, lengthbytes=3936, lengthpcm=24000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.676898.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000DF9979F228
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9D743F70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9D743F30
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9D744050
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9D744110
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002A063EA9FA8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX-BalloonSword-Strike-Squeak-06', format=5, channels=2, frequency=48000, lengthbytes=5568, lengthpcm=24000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.158662.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000DF9979F228
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9D743F70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9D743F30
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9D744050
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9D744110
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002A063EA9FA8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX-BalloonSword-Strike-Impact-04', format=5, channels=2, frequency=48000, lengthbytes=5056, lengthpcm=24000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.460993.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000DF9979F228
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9D743F70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9D743F30
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9D744050
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9D744110
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002A063EA8B08
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX-BalloonSword-Swing-03', format=5, channels=2, frequency=48000, lengthbytes=3840, lengthpcm=24000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.499153.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000DF9979F228
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9D743F70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9D743F30
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9D744050
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9D744110
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002A063EA8B08
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX-BalloonSword-Swing-04', format=5, channels=2, frequency=48000, lengthbytes=4832, lengthpcm=24000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.478989.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000DF9979F228
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9D743F70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9D743F30
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9D744050
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9D744110
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002A063EA8B08
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX-BalloonSword-Swing-02', format=5, channels=2, frequency=48000, lengthbytes=4704, lengthpcm=24000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.493550.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000DF9979F228
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9D743F70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9D743F30
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9D744050
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9D744110
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002A063EA8B08
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX-BalloonSword-Swing-06', format=5, channels=2, frequency=48000, lengthbytes=4512, lengthpcm=24000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.501930.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000DF9979F228
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9D743F70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9D743F30
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9D744050
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9D744110
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002A063EA8B08
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX-BalloonSword-Swing-05', format=5, channels=2, frequency=48000, lengthbytes=5248, lengthpcm=24000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.494061.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000DF9979F228
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9D743F70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9D743F30
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9D744050
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9D744110
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002A063EA8B08
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX-BalloonSword-Swing-01', format=5, channels=2, frequency=48000, lengthbytes=4672, lengthpcm=24000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.483204.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000DF9979F228
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9D743F70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9D743F30
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9D744050
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9D744110
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002A05B6692B8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX-BalloonSword-Pickup-01', format=5, channels=2, frequency=48000, lengthbytes=5792, lengthpcm=96000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.703553.
-[LOG] SystemI::createSound                     : filename = ../FMOD Project/Build/Desktop/Master.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000002A011D2C068, queue head = 000002A063A53448, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002A011D2C068
-[LOG] SystemI::createSoundInternal             :     Create name='../FMOD Project/Build/Desktop/Master.bank', mode=0x02010082
-[LOG] SystemI::createSound                     : filename = ../FMOD Project/Build/Desktop/Master.bank : mode 02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3574528
-[LOG] AsyncThread::add                         :     add sound to async queue : soundi = 000002A011D2CC38, queue head = 000002A063A53448, queue count = 0
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000029FEDEDD4C0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SFX-FerrisLightAmbience-TEMP', format=5, channels=2, frequency=48000, lengthbytes=1739008, lengthpcm=6333938, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.707997.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002A011D2C068
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002A011D2CC38
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000029FACAF1CF8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000029FACAF17E8
 [LOG] SystemI::createSoundInternal             :     Create name='../FMOD Project/Build/Desktop/Master.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
 [LOG] SystemI::createSoundInternal             :     exinfo->length             = 3574528
 [LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 34752
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000029FEDEDD880
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002A03241DAC0
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
 [LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SFX-FerrisWheelInterior-TEMP', format=5, channels=2, frequency=48000, lengthbytes=1512032, lengthpcm=6240000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.187926.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002A011D2CC38
-[LOG] SoundI::release                          : SFX-FerrisWheelInterior-TEMP (000002A011D2CC38)
-[LOG] SoundI::release                          :     SFX-FerrisWheelInterior-TEMP (000002A032FB2C28)
-[LOG] SoundI::release                          :     SFX-FerrisWheelInterior-TEMP (000002A011D2D808)
-[LOG] SoundI::release                          : SFX-FerrisLightAmbience-TEMP (000002A011D2C068)
-[LOG] SoundI::release                          :     SFX-FerrisLightAmbience-TEMP (000002A032589DB8)
-[LOG] SoundI::release                          :     SFX-FerrisLightAmbience-TEMP (000002A011D2E738)
-[LOG] SystemI::createSound                     : filename = ../FMOD Project/Build/Desktop/Master.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000002A011D2CC38, queue head = 000002A063A53448, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002A011D2CC38
-[LOG] SystemI::createSoundInternal             :     Create name='../FMOD Project/Build/Desktop/Master.bank', mode=0x02010082
-[LOG] SystemI::createSound                     : filename = ../FMOD Project/Build/Desktop/Master.bank : mode 02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3574528
-[LOG] AsyncThread::add                         :     add sound to async queue : soundi = 000002A011D2E588, queue head = 000002A063A53448, queue count = 0
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002A05668A4F0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SFX-FerrisLightAmbience-TEMP', format=5, channels=2, frequency=48000, lengthbytes=1739008, lengthpcm=6333938, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.707997.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002A011D2CC38
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002A011D2E588
-[LOG] SystemI::createSoundInternal             :     Create name='../FMOD Project/Build/Desktop/Master.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3574528
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 34752
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002A05668B2B0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SFX-FerrisWheelInterior-TEMP', format=5, channels=2, frequency=48000, lengthbytes=1512032, lengthpcm=6240000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.187926.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002A011D2E588
-[LOG] SoundI::release                          : SFX-FerrisWheelInterior-TEMP (000002A011D2E588)
-[LOG] SoundI::release                          :     SFX-FerrisWheelInterior-TEMP (000002A032FB25A8)
-[LOG] SoundI::release                          :     SFX-FerrisWheelInterior-TEMP (000002A011D2E8E8)
-[LOG] SoundI::release                          : SFX-FerrisLightAmbience-TEMP (000002A011D2CC38)
-[LOG] SoundI::release                          :     SFX-FerrisLightAmbience-TEMP (000002A032589DB8)
-[LOG] SoundI::release                          :     SFX-FerrisLightAmbience-TEMP (000002A011D2E738)
-[LOG] SoundI::release                          :  (0000029FAC4875D8)
-[LOG] SoundI::release                          :     SFX-FerrisWheelDoor-TEMP (0000029FEDF34F78)
-[LOG] SoundI::release                          :  (0000029FAC4854C8)
-[LOG] SoundI::release                          :     SFX-Roar-TEMP (0000029FEDF355F8)
-[LOG] SoundI::release                          :  (0000029FAC4878B8)
-[LOG] SoundI::release                          :     SFX-BalloonSword-Strike-Squeak-01 (000002A0644A3A08)
-[LOG] SoundI::release                          :  (0000029FAC487A28)
-[LOG] SoundI::release                          :     SFX-BalloonSword-Strike-Squeak-02 (000002A0112328D8)
-[LOG] SoundI::release                          :  (0000029FAC488888)
-[LOG] SoundI::release                          :     SFX-BalloonSword-Strike-Squeak-03 (000002A011232A78)
-[LOG] SoundI::release                          :  (0000029FAC4882C8)
-[LOG] SoundI::release                          :     SFX-BalloonSword-Strike-Squeak-04 (000002A011232DB8)
-[LOG] SoundI::release                          :  (0000029FAC486498)
-[LOG] SoundI::release                          :     SFX-BalloonSword-Strike-Squeak-05 (000002A0644A3528)
-[LOG] SoundI::release                          :  (0000029FAC4872F8)
-[LOG] SoundI::release                          :     SFX-BalloonSword-Strike-Squeak-06 (000002A0116EFA68)
-[LOG] SoundI::release                          :  (0000029FAC488E48)
-[LOG] SoundI::release                          :     SFX-BalloonSword-Strike-Impact-01 (000002A0112320B8)
-[LOG] SoundI::release                          :  (0000029FAC486BC8)
-[LOG] SoundI::release                          :     SFX-BalloonSword-Strike-Impact-02 (000002A0644A36C8)
-[LOG] SoundI::release                          :  (0000029FAC487018)
-[LOG] SoundI::release                          :     SFX-BalloonSword-Strike-Impact-03 (000002A0644A3048)
-[LOG] SoundI::release                          :  (0000029FAC487468)
-[LOG] SoundI::release                          :     SFX-BalloonSword-Strike-Impact-04 (000002A0116EFC08)
-[LOG] SoundI::release                          :  (0000029FAC486D38)
-[LOG] SoundI::release                          :     SFX-BalloonSword-Strike-Impact-05 (000002A0644A3BA8)
-[LOG] SoundI::release                          :  (0000029FAC485638)
-[LOG] SoundI::release                          :     SFX-Pop-TEMP (0000029FEDF35118)
-[LOG] SoundI::release                          :  (0000029FAC4889F8)
-[LOG] SoundI::release                          :     SFX-BalloonSword-Swing-01 (000002A0117FD0A8)
-[LOG] SoundI::release                          :  (0000029FAC487D08)
-[LOG] SoundI::release                          :     SFX-BalloonSword-Swing-02 (000002A0116EF728)
-[LOG] SoundI::release                          :  (0000029FAC487748)
-[LOG] SoundI::release                          :     SFX-BalloonSword-Swing-03 (000002A0116EF248)
-[LOG] SoundI::release                          :  (0000029FAC487B98)
-[LOG] SoundI::release                          :     SFX-BalloonSword-Swing-04 (000002A0116EF588)
-[LOG] SoundI::release                          :  (0000029FAC488438)
-[LOG] SoundI::release                          :     SFX-BalloonSword-Swing-05 (000002A0117FD8C8)
-[LOG] SoundI::release                          :  (0000029FAC485D68)
-[LOG] SoundI::release                          :     SFX-BalloonSword-Swing-06 (000002A0117FDDA8)
-[LOG] SoundI::release                          :  (000002A056696DA8)
-[LOG] SoundI::release                          :     SFX-BalloonSword-Pickup-01 (000002A05C177C08)
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEX): wFormatTag=0xFFFE, nChannels=2, nSamplesPerSec=48000, nAvgBytesPerSec=384000, nBlockAlign=8, wBitsPerSample=32, cbSize=22.
-[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEXTENSIBLE): wValidBitsPerSample=32, dwChannelMask=0x00000003, SubFormat=00000003-0000-0010-8000-00AA00389B71.
-[LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
-[LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000029FACAF17E8
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 3574528
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 34752
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000DF9989F008
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9D743F70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9D743F30
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9D744050
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9D744110
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002A0E6A50318
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX-FerrisWheelDoor-TEMP', format=5, channels=2, frequency=48000, lengthbytes=17984, lengthpcm=92065, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.271927.
+[LOG] SoundI::release                          : SFX-FerrisWheelInterior-TEMP (0000029FACAF17E8)
+[LOG] SoundI::release                          :     SFX-FerrisWheelInterior-TEMP (0000029DA0511278)
+[LOG] SoundI::release                          :     SFX-FerrisWheelInterior-TEMP (0000029FA178E3F8)
+[LOG] SoundI::release                          : SFX-FerrisLightAmbience-TEMP (0000029FACAF1CF8)
+[LOG] SoundI::release                          :     SFX-FerrisLightAmbience-TEMP (0000029DA0511758)
+[LOG] SoundI::release                          :     SFX-FerrisLightAmbience-TEMP (0000029FA178E248)
+[WRN] PlaybackSystem::onDestroyEvent           : Destroying event instance '200680' due to event description {4e770335-8caf-46ad-9691-f777de45ef34} unload
+[LOG] SoundI::release                          :  (000002A0E3E3ABB8)
+[LOG] SoundI::release                          :     SFX-FerrisWheelDoor-TEMP (000002A063EE8A78)
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 

@@ -1,9 +1,12 @@
+using FMODUnity;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class BossController : MonoBehaviour
 {
+    public EventReference DefeatSFX;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +24,7 @@ public class BossController : MonoBehaviour
         if (collision.gameObject.CompareTag("Pickable"))
         {
             Destroy(gameObject);
+            FMODUnity.RuntimeManager.PlayOneShot(DefeatSFX);
         }
     }
 }

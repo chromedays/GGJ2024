@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
     public Transform CurrentItemInHand;
     public GameObject HandIcon;
     // public TextMeshProUGUI HoveringItemText;
+    public FMODUnity.EventReference PickupSFX;
+    public FMODUnity.EventReference ThrowSFX;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +36,8 @@ public class PlayerController : MonoBehaviour
                     CurrentHoveringItem.localPosition = new Vector3();
                     CurrentHoveringItem.localRotation = Quaternion.identity;
                     CurrentItemInHand = CurrentHoveringItem;
+
+                    FMODUnity.RuntimeManager.PlayOneShot(PickupSFX);
                 }
             }
             else
@@ -43,6 +47,8 @@ public class PlayerController : MonoBehaviour
                 CurrentItemInHand.SetParent(null, true);
                 rigidbody.AddForce(PlayerCamera.TransformDirection(Vector3.forward) * 30f, ForceMode.VelocityChange);
                 CurrentItemInHand = null;
+
+                FMODUnity.RuntimeManager.PlayOneShot(ThrowSFX);
             }
         }
     }

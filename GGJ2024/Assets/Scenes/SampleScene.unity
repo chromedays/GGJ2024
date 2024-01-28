@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1.98
+  m_AmbientIntensity: 0.3
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 9af23ba5fa5364ff598888460e0e2759, type: 2}
@@ -431,9 +431,9 @@ RectTransform:
   - {fileID: 2018292013}
   m_Father: {fileID: 606897763}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -263.8}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &401354632
@@ -653,6 +653,8 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: -3724348358816820875, guid: 20fd1f327e2271c408e9388617748b96, type: 2}
     value: {fileID: 2107863122}
+  - key: {fileID: -4505239861748203495, guid: 20fd1f327e2271c408e9388617748b96, type: 2}
+    value: {fileID: 1709535624}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &498306070
@@ -1306,6 +1308,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1390,6 +1393,19 @@ Transform:
   - {fileID: 214944728}
   m_Father: {fileID: 1544180091}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
 --- !u!1 &1006108452
 GameObject:
   m_ObjectHideFlags: 0
@@ -1846,8 +1862,8 @@ Transform:
   m_GameObject: {fileID: 1052664973}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.31, z: -14.52}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.00000016058, y: 3.71, z: -17.99}
+  m_LocalScale: {x: 3.6941, y: 3.6941, z: 3.6941}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1864,6 +1880,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 855237efa9773ac42899d91682b12c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DefeatSFX:
+    Guid:
+      Data1: -924250373
+      Data2: 1215571375
+      Data3: -817755501
+      Data4: 656722132
+    Path: event:/SFX/Boss/BossPop
 --- !u!1 &1082560845
 GameObject:
   m_ObjectHideFlags: 0
@@ -2428,6 +2451,8 @@ PlayableDirector:
     value: {fileID: 2055125966}
   - key: {fileID: 1109581561633530218, guid: d71425d0ee355fe46a5c0bbc38676165, type: 2}
     value: {fileID: 381456967}
+  - key: {fileID: -8193001126325455096, guid: d71425d0ee355fe46a5c0bbc38676165, type: 2}
+    value: {fileID: 1052664973}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1506666486
@@ -2620,8 +2645,8 @@ MonoBehaviour:
   inputKeyDownJump: 0
   inputKeyDownSlide: 0
   inputKeyDownCursor: 0
-  mouseSensitivityX: 10
-  mouseSensitivityY: 10
+  mouseSensitivityX: 2
+  mouseSensitivityY: 2
   mouseSnappiness: 20
   invertLookY: 0
   clampLookY: 90
@@ -2710,6 +2735,20 @@ MonoBehaviour:
   CurrentHoveringItem: {fileID: 0}
   CurrentItemInHand: {fileID: 0}
   HandIcon: {fileID: 1705400912}
+  PickupSFX:
+    Guid:
+      Data1: 1535213253
+      Data2: 1287785171
+      Data3: 305825934
+      Data4: 1559205563
+    Path: event:/SFX/Weapon/BalloonSwordGet
+  ThrowSFX:
+    Guid:
+      Data1: 497176439
+      Data2: 1268654045
+      Data3: 1534355089
+      Data4: 116914191
+    Path: event:/SFX/Weapon/BalloonSwordSwing
 --- !u!1 &1705400912
 GameObject:
   m_ObjectHideFlags: 0
@@ -2782,6 +2821,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1705400912}
   m_CullTransparentMesh: 1
+--- !u!1 &1709535624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1709535625}
+  m_Layer: 0
+  m_Name: FerrisWheelDoorSound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1709535625
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709535624}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.17, y: 1.64, z: 92.43}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1831713081
 GameObject:
   m_ObjectHideFlags: 0
@@ -3042,8 +3112,8 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 5.91
-  m_Range: 7.74
+  m_Intensity: 10.8
+  m_Range: 12.21
   m_SpotAngle: 110.8
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -3101,7 +3171,7 @@ Transform:
   m_GameObject: {fileID: 1875872867}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7951582, y: -0, z: -0, w: 0.60640204}
-  m_LocalPosition: {x: 0, y: 5.75, z: -6.13}
+  m_LocalPosition: {x: 0, y: 6.85, z: -4.95}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3497,3 +3567,4 @@ SceneRoots:
   - {fileID: 2055125965}
   - {fileID: 141849629}
   - {fileID: 1848723454}
+  - {fileID: 1709535625}
