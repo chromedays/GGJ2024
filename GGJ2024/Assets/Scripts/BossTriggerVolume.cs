@@ -10,6 +10,7 @@ public class BossTriggerVolume : MonoBehaviour
     public Transform Boss;
     public GameObject CutsceneUIRoot;
     public PlayableDirector CutsceneTimelineDirector;
+    public float CutsceneDelayInSeconds = 5;
     bool triggered = false;
 
     // Start is called before the first frame update
@@ -23,9 +24,7 @@ public class BossTriggerVolume : MonoBehaviour
     {
         if (triggered && !Boss.IsDestroyed())
         {
-            float speed = 3f;
-            float step = speed * Time.deltaTime; // calculate distance to move
-            Boss.position = Vector3.MoveTowards(Boss.position, transform.position, step);
+            StartCoroutine(Appear(CutsceneDelayInSeconds));
         }
 
         if (Boss.IsDestroyed() && CutsceneUIRoot.activeSelf)
@@ -34,12 +33,31 @@ public class BossTriggerVolume : MonoBehaviour
         }
     }
 
+    IEnumerator Appear(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        float speed = 3f;
+        float step = speed * Time.deltaTime; // calculate distance to move
+        Boss.position = Vector3.MoveTowards(Boss.position, transform.position, step);
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Triggered");
         triggered = true;
 
+        StartCoroutine(StartCutsceneAfterSeconds(CutsceneDelayInSeconds));
+    }
+
+    void StartCutscene()
+    {
         CutsceneUIRoot.SetActive(true);
         CutsceneTimelineDirector.Play();
+    }
+
+    IEnumerator StartCutsceneAfterSeconds(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        StartCutscene();
     }
 }
