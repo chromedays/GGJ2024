@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
                     CurrentHoveringItem.localRotation = Quaternion.identity;
                     CurrentItemInHand = CurrentHoveringItem;
 
-                    FMODUnity.RuntimeManager.PlayOneShot(PickupSFX);
+                    FMODUnity.RuntimeManager.PlayOneShot(PickupSFX, transform.position);
                 }
             }
             else
@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour
                 rigidbody.AddForce(PlayerCamera.TransformDirection(Vector3.forward) * 30f, ForceMode.VelocityChange);
                 CurrentItemInHand = null;
 
-                FMODUnity.RuntimeManager.PlayOneShot(ThrowSFX);
+                FMODUnity.RuntimeManager.PlayOneShot(ThrowSFX, transform.position);
             }
         }
     }

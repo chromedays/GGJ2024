@@ -6,6 +6,7 @@ using UnityEngine;
 public class BossController : MonoBehaviour
 {
     public EventReference DefeatSFX;
+    public Transform Player;
 
     // Start is called before the first frame update
     void Start()
@@ -23,8 +24,8 @@ public class BossController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Pickable"))
         {
+            FMODUnity.RuntimeManager.PlayOneShot(DefeatSFX, Player.position);
             Destroy(gameObject);
-            FMODUnity.RuntimeManager.PlayOneShot(DefeatSFX);
         }
     }
 }

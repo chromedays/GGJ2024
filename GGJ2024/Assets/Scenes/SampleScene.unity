@@ -2934,6 +2934,7 @@ MonoBehaviour:
       Data3: -817755501
       Data4: 656722132
     Path: event:/SFX/Boss/BossPop
+  Player: {fileID: 1544180091}
 --- !u!1001 &1062424683
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3784,7 +3785,7 @@ PlayableDirector:
   - key: {fileID: 1109581561633530218, guid: d71425d0ee355fe46a5c0bbc38676165, type: 2}
     value: {fileID: 381456967}
   - key: {fileID: -8193001126325455096, guid: d71425d0ee355fe46a5c0bbc38676165, type: 2}
-    value: {fileID: 1052664973}
+    value: {fileID: 1544180088}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1506666486
