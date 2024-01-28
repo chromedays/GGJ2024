@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5077c607-f277-4e20-b2ba-477cd643e3b5}">
+		<property name="assetPath">
+			<value>BGM/Boss Music/BGM-BossCue-IntroB-100bpm-2_4-5m.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.6108124999999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d93ee7e9-964c-418c-a0cf-b61232f8bf8c}</destination>
+		</relationship>
+	</object>
+</objects>
