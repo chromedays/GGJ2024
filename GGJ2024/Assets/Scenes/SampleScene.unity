@@ -3747,7 +3747,7 @@ MonoBehaviour:
   Boss: {fileID: 1052664977}
   CutsceneUIRoot: {fileID: 381456967}
   CutsceneTimelineDirector: {fileID: 1462140894}
-  CutsceneDelayInSeconds: 5
+  CutsceneDelayInSeconds: 3
 --- !u!1 &1032166343
 GameObject:
   m_ObjectHideFlags: 0
@@ -5496,7 +5496,7 @@ MonoBehaviour:
   invertLookY: 0
   clampLookY: 90
   crouchSpeed: 3
-  walkSpeed: 7
+  walkSpeed: 6
   runSpeed: 12
   slideSpeed: 14
   slideDuration: 2.2
