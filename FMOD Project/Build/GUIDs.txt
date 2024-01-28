@@ -7,8 +7,11 @@
 {a7855226-206f-4475-addd-3e2dcdaf44fd} bus:/SFX/Boss
 {e95dac12-8587-49a5-bff9-c077214a2218} bus:/SFX/Environment
 {e8271a44-dcfe-4b84-ba13-1b9e2053ece7} bus:/SFX/Player
+{c879ab73-218a-453a-9a85-f898d77d6fc6} bus:/UI
 {2f2f8372-bf6c-4d0b-a3d2-4e41392d6fa2} bus:/VO
+{349eba9f-4cf7-4c19-8ca8-acd988645552} event:/BGM/BossMusic
 {ea342968-2df7-436b-bbe2-7b98ce3ce68e} event:/BGM/MusicController
+{a888462c-b573-43b2-b857-262cf54d4188} event:/Dialogue/Friend Dialogue
 {4dfb1900-da3b-4f30-be4d-7b0970b37ce3} event:/Environment/Emitter/FerrisWheelTurning
 {5cd96d9e-07b2-4af7-8e56-3837e442edd4} event:/Environment/Room Tone/BigTopAmbience
 {1a93aad0-c636-45bd-a1ec-cecb07e685f9} event:/Environment/Room Tone/FerrisWheelDark
