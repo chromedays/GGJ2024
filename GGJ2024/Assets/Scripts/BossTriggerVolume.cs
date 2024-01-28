@@ -36,17 +36,23 @@ public class BossTriggerVolume : MonoBehaviour
     IEnumerator Appear(float seconds)
     {
         yield return new WaitForSeconds(seconds);
-        float speed = 3f;
-        float step = speed * Time.deltaTime; // calculate distance to move
-        Boss.position = Vector3.MoveTowards(Boss.position, transform.position, step);
+        if (!Boss.IsDestroyed())
+        {
+            float speed = 3f;
+            float step = speed * Time.deltaTime; // calculate distance to move
+            Boss.position = Vector3.MoveTowards(Boss.position, transform.position, step);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Triggered");
-        triggered = true;
+        if (!triggered)
+        {
+            Debug.Log("Triggered");
+            triggered = true;
 
-        StartCoroutine(StartCutsceneAfterSeconds(CutsceneDelayInSeconds));
+            StartCoroutine(StartCutsceneAfterSeconds(CutsceneDelayInSeconds));
+        }
     }
 
     void StartCutscene()
