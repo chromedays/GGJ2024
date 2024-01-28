@@ -10,6 +10,7 @@
 {c879ab73-218a-453a-9a85-f898d77d6fc6} bus:/UI
 {2f2f8372-bf6c-4d0b-a3d2-4e41392d6fa2} bus:/VO
 {349eba9f-4cf7-4c19-8ca8-acd988645552} event:/BGM/BossMusic
+{53282ed6-6ded-4c61-b4cb-c9762717e7f3} event:/BGM/Cues/LightsOut
 {ea342968-2df7-436b-bbe2-7b98ce3ce68e} event:/BGM/MusicController
 {a888462c-b573-43b2-b857-262cf54d4188} event:/Dialogue/Friend Dialogue
 {4dfb1900-da3b-4f30-be4d-7b0970b37ce3} event:/Environment/Emitter/FerrisWheelTurning
