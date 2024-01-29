@@ -1,3 +1,4 @@
+using FMODUnity;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -13,11 +14,7 @@ public class BossTriggerVolume : MonoBehaviour
     public float CutsceneDelayInSeconds = 5;
     bool triggered = false;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
 
     // Update is called once per frame
     void Update()

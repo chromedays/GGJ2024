@@ -162,6 +162,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-2817710538292104851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BGM/BossMusic
+  m_EditorClassIdentifier: 
+  Path: event:/BGM/BossMusic
+  Guid:
+    Data1: 882817695
+    Data2: 1276726519
+    Data3: -642996084
+    Data4: 1381328008
+  Banks:
+  - {fileID: 3578510592910456591}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 44122
 --- !u!114 &-2766118895197800384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -270,6 +297,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-1578135087016395622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Room Tone/PathAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Room Tone/PathAmbience
+  Guid:
+    Data1: 225515952
+    Data2: 1233753383
+    Data3: -1500151376
+    Data4: -908950277
+  Banks:
+  - {fileID: 3578510592910456591}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-947450646205193979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -328,13 +382,45 @@ MonoBehaviour:
   - {fileID: 5763891138379167211}
   - {fileID: 5933709367888236842}
   - {fileID: -6949625250802803428}
+  - {fileID: 4774461843824374984}
+  - {fileID: -2817710538292104851}
+  - {fileID: -1578135087016395622}
+  - {fileID: 4105841142204899302}
+  - {fileID: 385961314086615223}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3578510592910456591}
   StringsBanks:
   - {fileID: 1273830221711523261}
-  cacheTime: 638419726231088644
+  cacheTime: 638420557864564287
   cacheVersion: 131616
+--- !u!114 &385961314086615223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Narrative Sequence/ManiacalLaughter
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Narrative Sequence/ManiacalLaughter
+  Guid:
+    Data1: -501522632
+    Data2: 1111013207
+    Data3: -1906505595
+    Data4: -1192832761
+  Banks:
+  - {fileID: 3578510592910456591}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &1257240953189978246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -377,10 +463,10 @@ MonoBehaviour:
   Path: ../FMOD Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638419726231088644
+  lastModified: 638420552822266730
   FileSizes:
   - Name: Desktop
-    Value: 1982
+    Value: 2256
   Exists: 1
 --- !u!114 &1828926766504553211
 MonoBehaviour:
@@ -424,11 +510,65 @@ MonoBehaviour:
   Path: ../FMOD Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638419726231033529
+  lastModified: 638420557864564287
   FileSizes:
   - Name: Desktop
-    Value: 3609280
+    Value: 5851040
   Exists: 1
+--- !u!114 &4105841142204899302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BGM/Cues/LightsOut
+  m_EditorClassIdentifier: 
+  Path: event:/BGM/Cues/LightsOut
+  Guid:
+    Data1: 1395142358
+    Data2: 1281453549
+    Data3: 1992936372
+    Data4: -202959065
+  Banks:
+  - {fileID: 3578510592910456591}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4774461843824374984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/Friend Dialogue
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/Friend Dialogue
+  Guid:
+    Data1: -1467464148
+    Data2: 1135785331
+    Data3: 740710328
+    Data4: -2008986123
+  Banks:
+  - {fileID: 3578510592910456591}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2231
 --- !u!114 &5763891138379167211
 MonoBehaviour:
   m_ObjectHideFlags: 0

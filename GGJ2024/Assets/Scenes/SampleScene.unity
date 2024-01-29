@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 64611f7c080ad324ab2fa27c77b1315d, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -2413,13 +2413,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 2.4435958e-30, w: 2.2e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -3691,7 +3691,7 @@ GameObject:
   - component: {fileID: 1025247753}
   m_Layer: 0
   m_Name: BossTriggerVolume
-  m_TagString: Untagged
+  m_TagString: BossEncounter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4049,11 +4049,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1367359603
-      Data2: 1151970398
-      Data3: -1253942345
-      Data4: -1508313618
-    Path: event:/SFX/Boss/BossMovement
+      Data1: 882817695
+      Data2: 1276726519
+      Data3: -642996084
+      Data4: 1381328008
+    Path: event:/BGM/BossMusic
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -5447,6 +5447,7 @@ GameObject:
   - component: {fileID: 1544180090}
   - component: {fileID: 1544180089}
   - component: {fileID: 1544180092}
+  - component: {fileID: 1544180093}
   m_Layer: 2
   m_Name: Player
   m_TagString: Untagged
@@ -5602,6 +5603,37 @@ MonoBehaviour:
       Data4: 1860534197
     Path: event:/SFX/Player/PlayerFootstep
   WalkSFXInterval: 0.4
+--- !u!114 &1544180093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544180088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 225515952
+      Data2: 1233753383
+      Data3: -1500151376
+      Data4: -908950277
+    Path: event:/Environment/Room Tone/PathAmbience
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &1550789552 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1649414014555591318, guid: 1b01ec087414cf046926d21f8c0c7f6f, type: 3}
