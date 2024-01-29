@@ -26,6 +26,7 @@
 {4e770335-8caf-46ad-9691-f777de45ef34} event:/SFX/Interactable/FerrisWheelDoor
 {3d8fbf1a-266f-4763-bf7e-a35360b58695} event:/SFX/Narrative Sequence/BossDefeated
 {5ca56b00-1ddb-41d4-a16a-f3a2c3ee926e} event:/SFX/Narrative Sequence/LightsOut
+{e21b5f38-b757-4238-8508-5d8e07d1e6b8} event:/SFX/Narrative Sequence/ManiacalLaughter
 {01c22d24-7e1b-4e9b-9fa3-eb6deb218a7f} event:/SFX/Player/PlayerBreathing
 {c722da12-fe06-47d7-b2a6-4cc4b57fe56e} event:/SFX/Player/PlayerFootstep
 {5b817ec5-0ad3-4cc2-8e88-3a12bb96ef5c} event:/SFX/Weapon/BalloonSwordGet
